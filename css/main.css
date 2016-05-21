@@ -10,9 +10,6 @@ body > header {
 	font-size: 48px;
 	text-align: center;
 	line-height: 100px;
-	h-eight: 100px;
-    m-ax-width: 100%;	
-	b-order-bottom: 1px solid #ccc;
 }
 
 body > header > a {
@@ -20,19 +17,20 @@ body > header > a {
 	text-decoration: none;
 }
 
-body > section {
+a.back {
+	margin: 5%;
+}
+
+
+
+
+article {
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: auto;
-	padding: 1%;
 }
 
-footer {
-	border-top: 1px solid #ccc;
-	margin: -1%;
-}
-
-time {
+article > time {
     color: #707070;
     font-size: 12px;
 	
@@ -41,6 +39,6 @@ time {
 	float: right;
 }
 
-a.back {
-	margin: 5%;
+article > footer {
+	border-top: 1px solid #ccc;
 }
