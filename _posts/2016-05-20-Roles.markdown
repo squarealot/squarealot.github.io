@@ -1,6 +1,6 @@
 ---
 layout: post
-title: roles in trading
+title: Roles In Trading
 excerpt: lala
 tags: [trading-roles, analyst, trader, manager]
 ---
