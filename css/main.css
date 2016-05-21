@@ -13,7 +13,7 @@ body > header {
 	line-height: 100px;
 }
 
-body > header > a {
+b-ody > header > a {
 	color: #000;
 	text-decoration: none;
 }
@@ -49,4 +49,5 @@ article > footer {
 a {
 	color: #3572b0;
 	font-weight: 400;
+	text-decoration: none;
 }
