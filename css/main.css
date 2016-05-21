@@ -14,3 +14,14 @@ body > header {
     max-width: 100%;	
 	border-bottom: 1px solid #506060;
 }
+
+footer {
+	border-top: 1px solid #506060;
+}
+
+.post {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: auto;
+    padding: 15px 20px;
+}
