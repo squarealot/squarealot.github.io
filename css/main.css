@@ -23,6 +23,15 @@ footer {
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: auto;
-	margin: 10%;
-	p-adding: 10%;
+	padding: 1%;
+}
+
+time {
+	margin-right: 5px;
+	position: relative;
+	float: right;
+	
+    color: #707070;
+    font-size: 12px;
+    line-height: 1.66666667;
 }
