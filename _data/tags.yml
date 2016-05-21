@@ -1,2 +1,11 @@
 trading-roles:
   name: Trading Roles
+
+analyst:
+  name: Analyst
+
+trader:
+  name: Trader
+
+manager:
+  name: Manager
