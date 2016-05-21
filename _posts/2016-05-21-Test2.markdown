@@ -1,0 +1,12 @@
+---
+layout: post
+title: test two
+excerpt: foo bar
+---
+
+bbbbbbbbbbbbbbb
+
+H1
+----------------
+
+some other text
