@@ -4,16 +4,16 @@ body {
 }
 
 body > header {
+	font-size: 48px;
+	
     border-bottom: 1px solid #506060;
     height: 100px;
     max-width: 100%;
-		
-	f-ont-size: 15px;
-    l-ine-height: 1.3;
-    margin: 0 auto;
-    text-align: justify;
+
+    m-argin: 0 auto;
+    text-align: center;
     w-idth: 695px;
 	
-	m-argin-left: 5%;
-	m-argin-right: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
