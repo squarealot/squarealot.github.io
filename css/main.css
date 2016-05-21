@@ -13,4 +13,6 @@ body > header {
 	height: 100px;
     max-width: 100%;	
 	border-bottom: 1px solid #506060;
+	
+	margin-top: -5%;
 }
