@@ -31,6 +31,8 @@ article > time {
     color: #707070;
     font-size: 12px;
 	float: right;
+	margin-right: 1%;
+	margin-top: 1%;
 }
 
 article > h1, section {
