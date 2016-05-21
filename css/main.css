@@ -20,22 +20,18 @@ footer {
 	padding: 1%;
 }
 
-.post {
+body > section {
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: auto;
-	p-adding: 1%;
-}
-
-.post > section {
-	margin: 1%;
+	padding: 1%;
 }
 
 time {
     color: #707070;
     font-size: 12px;
 	
-	margin-right: 1%;
+	m-argin-right: 1%;
 	p-osition: relative;
 	float: right;
 }
