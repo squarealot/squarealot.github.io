@@ -1,0 +1,12 @@
+---
+layout: post
+title: roles in trading
+excerpt: lala
+---
+
+Roles in trading
+----------------
+
+* Analyst
+* Trader
+* Manager
