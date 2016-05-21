@@ -1,0 +1,9 @@
+body {
+	background-color: #303B45;
+}
+
+header {
+    border-bottom: 1px solid #506060;
+    height: 100px;
+    max-width: 100%;
+}
