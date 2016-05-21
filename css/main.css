@@ -1,9 +1,19 @@
 body {
+	color: #ffffff;
 	background-color: #303B45;
 }
 
-header {
+body > header {
     border-bottom: 1px solid #506060;
     height: 100px;
     max-width: 100%;
+		
+	f-ont-size: 15px;
+    l-ine-height: 1.3;
+    margin: 0 auto;
+    text-align: justify;
+    w-idth: 695px;
+	
+	m-argin-left: 5%;
+	m-argin-right: 5%;
 }
