@@ -28,6 +28,7 @@ article {
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: auto;
+	margin-bottom: 1%;
 }
 
 article > time {
@@ -36,6 +37,12 @@ article > time {
 	float: right;
 }
 
+article > h1, section {
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
 article > footer {
 	border-top: 1px solid #ccc;
+	padding: 1%;
 }
