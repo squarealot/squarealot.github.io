@@ -1,0 +1,17 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	background-color: #303c47;
+}
+
+body > header {
+	font-size: 48px;
+	text-align: center;
+	line-height: 100px;
+	height: 100px;
+    max-width: 100%;	
+	margin-left: 5%;
+	margin-right: 5%;
+	border-bottom: 1px solid #506060;
+}
