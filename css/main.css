@@ -33,9 +33,6 @@ article {
 article > time {
     color: #707070;
     font-size: 12px;
-	
-	m-argin-right: 1%;
-	p-osition: relative;
 	float: right;
 }
 
