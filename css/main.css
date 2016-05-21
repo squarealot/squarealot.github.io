@@ -23,7 +23,11 @@ footer {
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: auto;
-	padding: 1%;
+	p-adding: 1%;
+}
+
+.post > section {
+	margin: 1%;
 }
 
 time {
@@ -33,5 +37,5 @@ time {
 	
     color: #707070;
     font-size: 12px;
-    line-height: 1.66666667;
+    l-ine-height: 1.66666667;
 }
