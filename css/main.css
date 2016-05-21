@@ -1,8 +1,9 @@
 body {
 	f-ont-family: 'Open Sans', sans-serif;
 	f-ont-size: 14px;
-	color: #ffffff;
-	background-color: #303c47;
+	c-olor: #ffffff;
+	b-ackground-color: #303c47;
+	margin: 5%;
 }
 
 body > header {
@@ -11,7 +12,5 @@ body > header {
 	line-height: 100px;
 	height: 100px;
     max-width: 100%;	
-	margin-left: 5%;
-	margin-right: 5%;
 	border-bottom: 1px solid #506060;
 }
