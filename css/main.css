@@ -2,20 +2,15 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	color: #ffffff;
-	background-color: #303B45;
+	background-color: #303045;
 }
 
 body > header {
 	font-size: 48px;
-	
-    border-bottom: 1px solid #506060;
-    height: 100px;
-    max-width: 100%;
-
-    m-argin: 0 auto;
-    text-align: center;
-    w-idth: 695px;
-	
+	text-align: center;
+	height: 100px;
+    max-width: 100%;	
 	margin-left: 5%;
 	margin-right: 5%;
+	border-bottom: 1px solid #506060;
 }
