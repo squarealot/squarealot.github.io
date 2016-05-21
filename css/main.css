@@ -10,17 +10,19 @@ body > header {
 	font-size: 48px;
 	text-align: center;
 	line-height: 100px;
-	height: 100px;
-    max-width: 100%;	
-	border-bottom: 1px solid #506060;
+	h-eight: 100px;
+    m-ax-width: 100%;	
+	b-order-bottom: 1px solid #ccc;
 }
 
 footer {
-	border-top: 1px solid #506060;
+	border-top: 1px solid #ccc;
 }
 
 .post {
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: auto;
+	margin: 10%;
+	p-adding: 10%;
 }
