@@ -14,8 +14,12 @@ excerpt: Time well spent
 	* [Windows Time Service Tools and Settings](https://technet.microsoft.com/en-us/library/cc773263.aspx)
 	* [Fast Troubleshooting for Windows Time Service (w32time) Synchronization](https://www.meinbergglobal.com/english/info/ntp-w32time.htm)
 
-	* economic calendar
+	
+	
+* economic calendar
 
+* weekdays
+	
 * daily preparation
 * weekly preparation
 
