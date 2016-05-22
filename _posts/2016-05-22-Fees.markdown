@@ -1,10 +1,13 @@
 ---
 layout: post
 title: Fees
-excerpt: Spread, Swap, Commissions, Dividends, ...
+excerpt: Spread, Swap, Commissions, ...
 ---
 
 * spread
 * commission
 * swap
+* live data feed
+* news services, livesquawk
+
 * ex dividend
