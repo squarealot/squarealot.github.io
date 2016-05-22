@@ -11,8 +11,8 @@ excerpt: All about time.
 * time frames
 * setup ntp
 
-*** [Windows Time Service Tools and Settings](https://technet.microsoft.com/en-us/library/cc773263.aspx)
-*** [Fast Troubleshooting for Windows Time Service (w32time) Synchronization](https://www.meinbergglobal.com/english/info/ntp-w32time.htm)
+** [Windows Time Service Tools and Settings](https://technet.microsoft.com/en-us/library/cc773263.aspx)
+** [Fast Troubleshooting for Windows Time Service (w32time) Synchronization](https://www.meinbergglobal.com/english/info/ntp-w32time.htm)
 
 * economic calendar
 
@@ -32,8 +32,8 @@ excerpt: All about time.
 * month end
 
 * Triple Witching Day / triple witching hour / quadruple witching hour
-*** third friday quarterly (prior day if holiday)
-*** third friday of every March, June, September, and December
+** third friday quarterly (prior day if holiday)
+** third friday of every March, June, September, and December
 
 * 11:50-12:00 futures, options (STOXX)
 * 13:00 futures, options (DAX, TecDAX) (FDAX, ODAX)
@@ -41,7 +41,7 @@ excerpt: All about time.
 * 17:30-20:00 stock options
 
 * monthly expire
-*** third friday monthly (prior day if holiday)
+** third friday monthly (prior day if holiday)
 
 * rollover (futures)
 
