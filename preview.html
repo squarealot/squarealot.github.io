@@ -3,18 +3,18 @@ layout: default
 title: Square a lot!
 ---
 
-{% for post in site.weekly limit:1 %}
+{% for week in site.weekly limit:1 %}
 <article>
-	<time datetime="{{ post.date | date: '%Y-%m-%d' }}" pubdate>{{ post.date | date: '%d. %B %Y' }}</time>		
-	<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-	<p>{{ post.excerpt }}</p>
+	<time datetime="{{ week.date | date: '%Y-%m-%d' }}" pubdate>{{ week.date | date: '%d. %B %Y' }}</time>		
+	<h1><a href="{{ week.url }}">{{ week.title }}</a></h1>
+	<section>{{ week.content }}</section>
 </article>
 {% endfor %}
 
-{% for post in site.daily limit:1 %}
+{% for day in site.daily limit:1 %}
 <article>
-	<time datetime="{{ post.date | date: '%Y-%m-%d' }}" pubdate>{{ post.date | date: '%d. %B %Y' }}</time>		
-	<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-	<p>{{ post.excerpt }}</p>
+	<time datetime="{{ day.date | date: '%Y-%m-%d' }}" pubdate>{{ day.date | date: '%d. %B %Y' }}</time>		
+	<h1><a href="{{ day.url }}">{{ day.title }}</a></h1>
+	<section>{{ daycontent }}</section>
 </article>
 {% endfor %}
