@@ -9,5 +9,4 @@ tags: [trading-roles, analyst, trader, manager]
 * Trader
 * Manager
 
-<img src="/img/analyst-trader-manager.png" alt="Analyst, Trader, Manager" width="10%" style="float: right; " />
-
+<img src="/img/analyst-trader-manager.png" alt="Analyst, Trader, Manager" style="width: 25%; height: 25%; float: right; margin: 10px;" />
