@@ -44,6 +44,7 @@ article > h1, section {
 article > footer {
 	border-top: 1px solid #ccc;
 	padding: 1%;
+	clear: both;
 }
 
 a {
@@ -61,5 +62,4 @@ img.ali-right {
 	height: 25%;
 	margin: 10px;
 	overflow: hidden;
-	display: inline;
 }
