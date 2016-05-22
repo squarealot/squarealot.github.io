@@ -1,3 +1,3 @@
 collections:
-	weekly:
-		permalink: /weekly/:path/
+  weekly:
+    permalink: /weekly/:path/
