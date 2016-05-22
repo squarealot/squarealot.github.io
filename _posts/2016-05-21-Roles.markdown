@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Roles
-excerpt: Balance multiple hats as a daytrader.
+excerpt: Balance multiple hats
 tags: [trading-roles, analyst, trader, manager]
 ---
 
