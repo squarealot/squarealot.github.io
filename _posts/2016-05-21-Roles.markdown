@@ -5,8 +5,9 @@ excerpt: lala
 tags: [trading-roles, analyst, trader, manager]
 ---
 
-<img src="/img/analyst-trader-manager.png" alt="Analyst, Trader, Manager" width="10%" />
-
 * Analyst
 * Trader
 * Manager
+
+<img src="/img/analyst-trader-manager.png" alt="Analyst, Trader, Manager" width="10%" style="float: right; " />
+
