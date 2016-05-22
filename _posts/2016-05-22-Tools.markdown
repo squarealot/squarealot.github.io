@@ -1,0 +1,23 @@
+---
+layout: post
+title: Software
+excerpt: Tools
+---
+
+* [TradingView](https://www.tradingview.com/)
+* [NinjaTrader](http://ninjatrader.com/)
+* [MetaTrader}(http://www.metaquotes.net/)
+* [cTrader](http://www.spotware.com/)
+* [ProRealTime](https://www.prorealtime.com/de/)
+* [Sierra Charts](http://www.sierrachart.com/)
+* [MultiCharts](http://www.multicharts.com/)
+* [ChartIQ](https://www.chartiq.com/)
+* [eSignal](http://www.esignal.com/)
+
+
+* [Bloomberg Terminal](http://www.bloomberg.com/company/)
+* [Thomson Reuters Eikon](http://financial.thomsonreuters.com/en/products/tools-applications/trading-investment-tools/eikon-trading-software.html)
+
+
+* Wikipedia: [Technical analysis software](https://en.wikipedia.org/wiki/Technical_analysis_software)
+
