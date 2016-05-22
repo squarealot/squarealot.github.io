@@ -4,6 +4,8 @@ title: Time well spent
 excerpt: All about time.
 ---
 
+* [world clocks](/world-clocks.html)
+
 * time zones (UTC, GMT)
 * time zones in forex (sessions, ETH, RTH)
 * time frames

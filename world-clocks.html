@@ -1,0 +1,294 @@
+---
+layout: default
+title: world clocks
+---
+	
+<style>
+
+html { 
+	background: url(img/world-map.png) no-repeat center center fixed; 
+	background-size: 100% 100%;
+}
+
+time {
+	position: absolute;
+	background-color: white;
+	text-align: center;
+	border: 1px solid black;
+	padding: 2px;
+}
+
+time[tz="local"] {
+	left: 1%;
+	top: 1%;
+	font-size: 150%;
+}
+
+time[tz="UTC"] {
+	left: 42%;
+	top: 1%;
+	font-size: 150%;
+}
+
+time[tz="America/New_York"] {
+	left: 23%;
+	top: 33%;
+}
+
+time[tz="Europe/London"] {
+	left: 45%;
+	top: 22%;
+}
+
+time[tz="Europe/Berlin"] {
+	left: 50%;
+	top: 28%;
+}
+
+time[tz="Europe/Moscow"] {
+	left: 57%;
+	top: 22%;
+}
+
+time[tz="Asia/Calcutta"] {
+	left: 68%;
+	top: 43%;
+}
+
+time[tz="Asia/Hong_Kong"] {
+	left: 78%;
+	top: 43%;
+}
+
+time[tz="Asia/Tokyo"] {
+	left: 85%;
+	top: 33%;
+}
+
+time[tz="Australia/Sydney"] {
+	left: 87%;
+	top: 80%;
+}
+
+time[tz="Pacific/Auckland"] {
+	left: 93%;
+	top: 87%;
+}
+
+
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<time name="GMT/UTC" tz="UTC" style=""></time>
+<time name="Local" tz="local"></time>
+
+<time name="New York" tz="America/New_York"></time>
+<time name="London" tz="Europe/London"></time>
+<time name="Frankfurt" tz="Europe/Berlin"></time>
+<time name="Moscow" tz="Europe/Moscow"></time>
+<time name="Hong Kong" tz="Asia/Hong_Kong"></time>
+<time name="India" tz="Asia/Calcutta"></time>
+<time name="Japan" tz="Asia/Tokyo"></time>
+<time name="Australia" tz="Australia/Sydney"></time>
+<time name="New Zealand" tz="Pacific/Auckland"></time>
+
+
+
+<script>
+
+var tag = function (tagName) {
+	return document.getElementsByTagName(tagName);
+}
+
+var $ = function(id) {
+	return document.getElementById(id);
+}
+
+	var l	= navigator.languages
+			? navigator.languages
+			: [ navigator.userLanguage, navigator.browserLanguage, navigator.systemLanguage, navigator.language, ];
+ 
+	//var l  = ["ar-SQ", "se-NO" ];
+	
+	var timeTags = Array.prototype.slice.call(tag("time"));
+
+	var update = function() {
+		var d = new Date();
+		
+		var options = {
+			//localeMatcher: "best fit", // "lookup" and "best fit"
+			//timeZone: "UTC", // https://www.iana.org/time-zones
+			hour12: false,
+			formatMatcher: "best fit", // "basic" and "best fit"
+			//timeZoneName: "long", // short
+
+			//weekday: "long",			
+			//year: "numeric",
+			//month: "long",
+			//day: "numeric",
+			hour: "2-digit",
+			minute:"2-digit",
+			second: "2-digit",
+		};
+		
+		timeTags.forEach(function(timeTag, idx, arr) {
+			options.timeZone = timeTag.getAttribute("tz");
+			if (options.timeZone == "local") {
+				delete options.timeZone;
+			}
+			try {
+				timeTag.innerHTML = timeTag.getAttribute("name") + "<br>" + d.toLocaleTimeString(l, options);
+			} catch (e) {
+				console.log(e);
+			}
+		});
+	}
+	
+	update();
+	setInterval(update, 1000);
+	//setTimeout(update, 1000);
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+
+
+
+
+
+
+
+
+
+
+
+<table cellspacing="1" cellpadding="10" border="1">
+	<tbody><tr>
+		<th width="17" align="center"><font style="color:#6f6e6e">1</font></th>
+		<th width="17" height="30" align="center" style="background-color: #767573"><b><font style="color:#ffffff">2</font></b></th>
+		<th width="17" align="center"><font style="color:#6f6e6e">3</font></th>
+		<th width="17" align="center"><font style="color:#6f6e6e">4</font></th>
+		<th width="17" align="center"><font style="color:#6f6e6e">5</font></th>
+		<th width="17" align="center"><font style="color:#6f6e6e">6</font></th>
+		<th width="17" align="center"><font style="color:#6f6e6e">7</font></th>
+		<th width="17" align="center"><font style="color:#6f6e6e">8</font></th>
+		<th width="17" align="center"><font style="color:#6f6e6e">9</font></th>
+		<th width="17" align="center"><font style="color:#6f6e6e">10</font></th>
+		<th width="17" align="center"><font style="color:#6f6e6e">11</font></th>
+		<th width="17" align="center"><font style="color:#6f6e6e">12</font></th>
+		<th width="17" align="center"><font style="color:#6f6e6e">13</font></th>
+		<th width="17" align="center"><font style="color:#6f6e6e">14</font></th>
+		<th width="17" align="center"><font style="color:#6f6e6e">15</font></th>
+		<th width="17" align="center"><font style="color:#6f6e6e">16</font></th>
+		<th width="17" align="center"><font style="color:#6f6e6e">17</font></th>
+		<th width="17" align="center"><font style="color:#6f6e6e">18</font></th>
+		<th width="17" align="center"><font style="color:#6f6e6e">19</font></th>
+		<th width="17" align="center"><font style="color:#6f6e6e">20</font></th>
+		<th width="17" align="center"><font style="color:#6f6e6e">21</font></th>
+		<th width="17" align="center"><font style="color:#6f6e6e">22</font></th>
+		<th width="17" align="center"><font style="color:#6f6e6e">23</font></th>
+		<th width="17" align="center"><font style="color:#6f6e6e">24</font></th>
+	</tr>
+	<tr>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td colspan="9" align="center" style="background-color: #44e213"><b>London</b></td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+	</tr>
+	<tr>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td colspan="9" align="center" style="background-color: #d14d0f"><b>New York</b></td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+	</tr>
+	<tr>
+		<td colspan="1" align="center" style="background-color: #075fff"> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td colspan="8" align="center" style="background-color: #075fff"><b>Sydney &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td>
+	</tr>
+	<tr>
+		<td colspan="3" align="center" style="background-color: #fdff08"> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td> &nbsp; </td>
+		<td colspan="6" align="center" style="background-color: #fdff08"><b>Tokyo</b></td>
+	</tr>
+</tbody></table>
+
+
+-->
+</body>
+</html>
