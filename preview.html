@@ -11,6 +11,7 @@ title: Square a lot!
 	{% endfor %}
 
 	{% for preview in site.daily limit:5 %}
+	<time datetime="{{ page.date | date: '%Y-%m-%d' }}" pubdate>{{ page.date | date: '%d. %B %Y' }}</time>
 	<h3><time datetime="{{ preview.date | date: '%Y-%m-%d' }}">{{ preview.date | date: '%A' }}</time></h3>
 	<section>{{ preview.content }}</section>
 	{% endfor %}
