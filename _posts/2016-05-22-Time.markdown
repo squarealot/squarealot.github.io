@@ -17,6 +17,19 @@ excerpt: Time well spent
 	
 	
 * economic calendar
+	* http://today.cal.4castweb.com/timezone.aspx
+	* https://www.fxopen.com/en/forex-calendar/
+	* https://www.dailyfx.com/calendar
+	* http://investing.com/economic-calendar/
+	* http://www.forexfactory.com/calendar.php
+	
+* Eurex
+	* http://www.eurexchange.com/exchange-en/trading/trading-calendar
+	
+	
+	
+
+
 
 * weekdays
 	
