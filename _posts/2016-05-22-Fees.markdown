@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fees
-excerpt: Spreads, Commissions, Swap, Dividends, ...
+excerpt: Spread, Swap, Commissions, Dividends, ...
 ---
 
 * spread
