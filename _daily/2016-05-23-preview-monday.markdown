@@ -16,5 +16,7 @@ excerpt: week 20
 * v-reversals (highs, lows, median, vwap)
 -->
 
-1. USD (DX) with **inside day** and **nr7**
-	=> **breakout**
+1. USD (DX) with
+	* **inside day** and
+	* **nr7**
+		* => **breakout**
