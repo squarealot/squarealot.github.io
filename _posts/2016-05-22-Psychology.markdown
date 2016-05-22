@@ -7,6 +7,7 @@ excerpt: Most important and most difficult
 * trade smallest available lot size! always!
 * go away
 * distraction
+	* small TFs
 	* news
 	* forums
 	* gurus
