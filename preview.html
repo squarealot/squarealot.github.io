@@ -5,7 +5,7 @@ title: Square a lot!
 
 {% for week in site.weekly limit:1 %}
 <article>
-	<time datetime="{{ week.date | date: '%Y-%m-%d' }}" pubdate>{{ week.date | date: '%d. %B %Y' }}</time>		
+	<time datetime="{{ week.date | date: '%Y-%m-%d' }}" pubdate>{{ week.date | date: '%F - %Y' }}</time>		
 	<h1><a href="{{ week.url }}">{{ week.title }}</a></h1>
 	<section>{{ week.content }}</section>
 </article>
