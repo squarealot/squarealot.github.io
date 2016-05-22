@@ -1,0 +1,3 @@
+collections:
+  _weekly:
+    permalink: /weekly/:path/
