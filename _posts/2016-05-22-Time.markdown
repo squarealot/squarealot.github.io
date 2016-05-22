@@ -11,6 +11,9 @@ excerpt: All about time.
 * time frames
 * setup ntp
 
+*** [Windows Time Service Tools and Settings](https://technet.microsoft.com/en-us/library/cc773263.aspx)
+*** [Fast Troubleshooting for Windows Time Service (w32time) Synchronization](https://www.meinbergglobal.com/english/info/ntp-w32time.htm)
+
 * economic calendar
 
 * daily preparation
@@ -48,3 +51,5 @@ excerpt: All about time.
 * Halloween
 * summer holidays
 * year-end rally
+
+* [A Wall Street guide to watches](http://www.businessinsider.com/a-wall-street-guide-to-watches-2015-8)
