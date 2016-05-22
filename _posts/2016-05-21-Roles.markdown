@@ -7,11 +7,12 @@ tags: [trading-roles, analyst, trader, manager]
 
 <img src="/img/analyst-trader-manager.png" alt="Analyst, Trader, Manager" class="ali-right" />
 
-* Analyst
+* Analyst (getting direction right)
 ** fundamental (economy, interest rates, production, earnings, employment, GDP, housing, manufacturing)
 ** technical (price, trends, chart patterns)
 ** quantitative (mathematician, statistics, probability)
 
+* Trader (implement trade, timing)
 
-* Trader
-* Manager
+
+* Manager (MM, RM, size, correlations, time)
