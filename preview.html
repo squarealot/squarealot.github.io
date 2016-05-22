@@ -3,17 +3,14 @@ layout: default
 title: Square a lot!
 ---
 
-{% for preview in site.weekly limit:1 %}
 <article>
-	<h1>Preview for week {{ preview.date | date: '%W of year %Y' }}.</h1>
+	{% for preview in site.weekly limit:1 %}
+	<h1>{{ preview.date | date: 'Week %W, Year %Y' }}</h1>
 	<section>{{ preview.content }}</section>
-</article>
-{% endfor %}
+	{% endfor %}
 
-{% for day in site.daily limit:1 %}
-<article>
-	<time datetime="{{ day.date | date: '%Y-%m-%d' }}" pubdate>{{ day.date | date: '%d. %B %Y' }}</time>		
-	<h1><a href="{{ day.url }}">{{ day.title }}</a></h1>
-	<section>{{ day.content }}</section>
+	{% for preview in site.daily limit:1 %}
+	<h1>Day <time datetime="{{ preview.date | date: '%Y-%m-%d' }}">{{ preview.date | date: '%A' }}</time>:</h1>
+	<section>{{ preview.content }}</section>
+	{% endfor %}
 </article>
-{% endfor %}

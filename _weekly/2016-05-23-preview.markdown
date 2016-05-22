@@ -1,7 +1,5 @@
 ---
 layout: post
-title: weekly
-excerpt: week 20
 ---
 
 <!--
