@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Time well spent
-excerpt: All about time.
+title: Time
+excerpt: Time well spent.
 ---
 
 * [Time Zone Clocks](/world-clocks.html)
