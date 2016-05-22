@@ -15,8 +15,11 @@ excerpt: Tools
 * [eSignal](http://www.esignal.com/)
 
 
-* [Bloomberg Terminal](http://www.bloomberg.com/company/)
 
+
+
+
+* [Bloomberg Terminal](http://www.bloomberg.com/company/)
 * [Thomson Reuters Eikon](http://financial.thomsonreuters.com/en/products/tools-applications/trading-investment-tools/eikon-trading-software.html)
 
 
