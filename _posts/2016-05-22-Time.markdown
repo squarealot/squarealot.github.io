@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Time & Management
-excerpt: foo bar
+title: Time Well Spent
+excerpt: All about time.
 ---
 
 * time zones (UTC, GMT)
