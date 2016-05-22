@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Roles In Trading
+title: Roles in trading
 excerpt: Balance multiple hats as a daytrader.
 tags: [trading-roles, analyst, trader, manager]
 ---
@@ -8,9 +8,11 @@ tags: [trading-roles, analyst, trader, manager]
 <img src="/img/analyst-trader-manager.png" alt="Analyst, Trader, Manager" class="ali-right" />
 
 * Analyst (getting direction right)
+
 ** fundamental (economy, interest rates, production, earnings, employment, GDP, housing, manufacturing)
 ** technical (price, trends, chart patterns)
 ** quantitative (mathematician, statistics, probability)
+
 
 * Trader (implement trade, timing)
 
