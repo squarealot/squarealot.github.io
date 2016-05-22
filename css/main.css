@@ -36,7 +36,7 @@ article > time {
 	margin-top: 1%;
 }
 
-article > h1, section, p {
+article > h1, h2, h3, h4, h5, h6, section, p {
 	margin-left: 1%;
 	margin-right: 1%;
 }
