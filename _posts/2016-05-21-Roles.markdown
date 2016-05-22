@@ -5,6 +5,8 @@ excerpt: lala
 tags: [trading-roles, analyst, trader, manager]
 ---
 
+![analyst, trader, manager](/img/analyst-trader-manager.png)
+
 * Analyst
 * Trader
 * Manager
