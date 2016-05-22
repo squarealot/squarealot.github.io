@@ -4,6 +4,9 @@ title: Software
 excerpt: Tools
 ---
 
+1. [Bloomberg Terminal](http://www.bloomberg.com/company/)
+2. [Thomson Reuters Eikon](http://financial.thomsonreuters.com/en/products/tools-applications/trading-investment-tools/eikon-trading-software.html)
+
 * [TradingView](https://www.tradingview.com/)
 * [NinjaTrader](http://ninjatrader.com/)
 * [MetaTrader](http://www.metaquotes.net/)
@@ -14,14 +17,4 @@ excerpt: Tools
 * [ChartIQ](https://www.chartiq.com/)
 * [eSignal](http://www.esignal.com/)
 
-
-
-
-
-
-* [Bloomberg Terminal](http://www.bloomberg.com/company/)
-* [Thomson Reuters Eikon](http://financial.thomsonreuters.com/en/products/tools-applications/trading-investment-tools/eikon-trading-software.html)
-
-
 * Wikipedia: [Technical analysis software](https://en.wikipedia.org/wiki/Technical_analysis_software)
-
