@@ -11,4 +11,5 @@ excerpt: week 20
 Entries
 
 * 6A long: ~0.715, SL: ~0.7, TP: 0.745
-* 6J short: ~109.15, SL: ?, TP: ~110,60 (stopped out 109.4)
+* 6J short: ~109.15, SL: ?, TP: ~110,60
+* 6S long ?, may explode, flag (TP: 0.987)
