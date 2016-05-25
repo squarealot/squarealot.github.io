@@ -10,6 +10,7 @@ excerpt: week 20
 
 Entries
 
-* 6A long: ~0.715, SL: ~0.7, TP: 0.745
+* 6A long: [~0.715, SL: ~0.7, TP: 0.745]
+	* 2x: ~0.71
 * 6J short: ~109.15, SL: ?, TP: ~110,60
 * 6S long ?, may explode, flag: @VTT, (TP: 0.987)

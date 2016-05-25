@@ -12,6 +12,7 @@ layout: post
 	* high volume node: target
 	* low volume node: support/resistance
 * v-reversals (highs, lows, median, vwap)
+* what was the play yesterday? is there a followup play?
 -->
 
 * Mon: JPY (01:50), EUR (09:00-10:00), USD (15:45)
