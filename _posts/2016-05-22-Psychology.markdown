@@ -13,3 +13,4 @@ excerpt: Most important and most difficult
 	* gurus
 * only limit, no market
 * square a lot
+* fake orders in level 2 (spoofing)
