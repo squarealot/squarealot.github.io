@@ -1,0 +1,12 @@
+---
+layout: post
+---
+
+US & GB holiday
+
+
+---
+AUD: foo
+JPY: bar
+USD: baz
+---
