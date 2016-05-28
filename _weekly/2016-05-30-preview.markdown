@@ -1,0 +1,24 @@
+---
+layout: post
+---
+
+<!--
+* USD, Indices, Gold, Oil?
+* weekday
+* inside day
+* narrow range day
+* naked/virgin vpoc, vwap, daily highs, daily lows
+* volume profile
+	* high volume node: target
+	* low volume node: support/resistance
+* v-reversals (highs, lows, median, vwap)
+* what was the play yesterday? is there a followup play?
+-->
+
+* Mon: JPY (01:50), **US & GB holiday**
+* Tue: JPY (01:30, 07:00), AUD (03:30), USD (14:30, 16:00)
+* Wed: JPY (01:50, 04:00), AUD (**03:30**), USD (16:00)
+* Thu: JPY (01:50, 07:00), AUD (03:30), **EUR (13:45)**, USD (14:15-14:30)
+* Fri: AUD (01:30), JPY (02:00, **04:00**), **CNY (03:45)**, USD (14:30, 16:00)
+
+New month, EZB rate decision (Thu, 13:45), NFP, AUD GDP

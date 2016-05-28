@@ -16,15 +16,15 @@ excerpt: Time well spent
 
 	
 	
-* economic calendar
-	* http://today.cal.4castweb.com/timezone.aspx
-	* https://www.fxopen.com/en/forex-calendar/
-	* https://www.dailyfx.com/calendar
-	* http://investing.com/economic-calendar/
-	* http://www.forexfactory.com/calendar.php
+* economic calendars
+	* [http://today.cal.4castweb.com/timezone.aspx](http://today.cal.4castweb.com/timezone.aspx)
+	* [https://www.fxopen.com/en/forex-calendar/](https://www.fxopen.com/en/forex-calendar/)
+	* [https://www.dailyfx.com/calendar](https://www.dailyfx.com/calendar)
+	* [http://investing.com/economic-calendar/](http://investing.com/economic-calendar/)
+	* [http://www.forexfactory.com/calendar.php](http://www.forexfactory.com/calendar.php)
+	* [http://www.ig.com/uk/ig-economic-calendar](http://www.ig.com/uk/ig-economic-calendar)
 	
-* Eurex
-	* http://www.eurexchange.com/exchange-en/trading/trading-calendar
+[Eurex](http://www.eurexchange.com/exchange-en/trading/trading-calendar)
 	
 	
 	
