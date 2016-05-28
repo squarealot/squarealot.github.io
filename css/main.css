@@ -63,3 +63,11 @@ img.ali-right {
 	margin: 10px;
 	overflow: hidden;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
