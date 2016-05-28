@@ -4,15 +4,23 @@ title: Square a lot!
 ---
 
 <article>
-	{% for preview in site.weekly limit:10 %}
-	<h1>{{ preview.date | date: 'Year %Y' }}</h1>
-	<h2>{{ preview.date | date: 'Week %W' }}</h2>
-	<section>{{ preview.content }}</section>
-	{% endfor %}
+	{% for week in site.weekly limit:10 %}
+	<h1>{{ week.date | date: 'Year %Y' }}</h1>
+	<h2>{{ week.date | date: 'Week %W' }}</h2>
+	<section>{{ week.content }}</section>
 
-	{% for preview in site.daily limit:5 %}
-	<time datetime="{{ preview.date | date: '%Y-%m-%d' }}" pubdate>{{ preview.date | date: '%d. %B %Y' }}</time>
-	<h3><time datetime="{{ preview.date | date: '%Y-%m-%d' }}">{{ preview.date | date: '%A' }}</time></h3>
-	<section>{{ preview.content }}</section>
+		{% for day in site.daily %}
+
+			{% assign weekNr1 = week.date | date: '%W' %}
+			{% assign weekNr2 = day.date | date: '%W' %}
+		
+			{% if weekNr1 == weekNr2 %}
+			<time datetime="{{ day.date | date: '%Y-%m-%d' }}" pubdate>{{ day.date | date: '%d. %B %Y' }}</time>
+			<h3><time datetime="{{ day.date | date: '%Y-%m-%d' }}">{{ day.date | date: '%A' }}</time></h3>
+			<section>{{ day.content }}</section>
+			{% endif %}
+		{% endfor %}		
+
+		<hr/>
 	{% endfor %}
 </article>
