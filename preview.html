@@ -4,7 +4,7 @@ title: Square a lot!
 ---
 
 <article>
-	{% for preview in site.weekly limit:1 %}
+	{% for preview in site.weekly limit:10 %}
 	<h1>{{ preview.date | date: 'Year %Y' }}</h1>
 	<h2>{{ preview.date | date: 'Week %W' }}</h2>
 	<section>{{ preview.content }}</section>
