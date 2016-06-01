@@ -23,12 +23,13 @@ excerpt: Time well spent
 	* [http://investing.com/economic-calendar/](http://investing.com/economic-calendar/)
 	* [http://www.forexfactory.com/calendar.php](http://www.forexfactory.com/calendar.php)
 	* [http://www.ig.com/uk/ig-economic-calendar](http://www.ig.com/uk/ig-economic-calendar)
+	* [Eurex](http://www.eurexchange.com/exchange-en/trading/trading-calendar)
+	* [BoJ](http://www.boj.or.jp/en/announcements/calendar/index.htm/)
 	
-[Eurex](http://www.eurexchange.com/exchange-en/trading/trading-calendar)
 	
+rate decision:
+	* [http://www.leitzinsen.info/zinstermine.htm](http://www.leitzinsen.info/zinstermine.htm)
 	
-	
-
 
 
 * weekdays
