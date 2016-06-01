@@ -3,24 +3,26 @@ layout: default
 title: Square a lot!
 ---
 
+{% assign weekNow = 'now' | date: '%Y-%W' %}
+
 <article>
-	{% for week in site.weekly limit:10 %}
-	<h1>{{ week.date | date: 'Year %Y' }}</h1>
-	<h2>{{ week.date | date: 'Week %W' }}</h2>
-	<section>{{ week.content }}</section>
+{% for week in site.weekly %}
+	{% assign weekInLoop = week.date | date: '%Y-%W' %}
+	{% if weekNow == weekInLoop %}
+		<h1>{{ week.date | date: 'Year %Y' }}</h1>
+		<h2>{{ week.date | date: 'Week %W' }}</h2>
+		<section>{{ week.content }}</section>
 
 		{% for day in site.daily %}
-
-			{% assign weekNr1 = week.date | date: '%W' %}
-			{% assign weekNr2 = day.date | date: '%W' %}
-		
-			{% if weekNr1 == weekNr2 %}
-			<time datetime="{{ day.date | date: '%Y-%m-%d' }}" pubdate>{{ day.date | date: '%d. %B %Y' }}</time>
-			<h3><time datetime="{{ day.date | date: '%Y-%m-%d' }}">{{ day.date | date: '%A' }}</time></h3>
-			<section>{{ day.content }}</section>
+			{% assign weekOfDay = day.date | date: '%W' %}
+			{% if weekInLoop == weekOfDay %}
+				<time datetime="{{ day.date | date: '%Y-%m-%d' }}" pubdate>{{ day.date | date: '%d. %B %Y' }}</time>
+				<h3><time datetime="{{ day.date | date: '%Y-%m-%d' }}">{{ day.date | date: '%A' }}</time></h3>
+				<section>{{ day.content }}</section>
 			{% endif %}
-		{% endfor %}		
+		{% endfor %}
 
-		<hr/>
-	{% endfor %}
+	{% endif %}
+	<hr/>
+{% endfor %}
 </article>
