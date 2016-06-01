@@ -20,9 +20,9 @@ title: Square a lot!
 				<h3><time datetime="{{ day.date | date: '%Y-%m-%d' }}">{{ day.date | date: '%A' }}</time></h3>
 				<section>{{ day.content }}</section>
 			{% endif %}
+		<hr/>
 		{% endfor %}
 
 	{% endif %}
-	<hr/>
 {% endfor %}
 </article>
