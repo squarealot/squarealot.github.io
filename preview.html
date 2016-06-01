@@ -14,7 +14,7 @@ title: Square a lot!
 		<section>{{ week.content }}</section>
 
 		{% for day in site.daily %}
-			{% assign weekOfDay = day.date | date: '%W' %}
+			{% assign weekOfDay = day.date | date: '%Y-%W' %}
 			{% if weekInLoop == weekOfDay %}
 				<time datetime="{{ day.date | date: '%Y-%m-%d' }}" pubdate>{{ day.date | date: '%d. %B %Y' }}</time>
 				<h3><time datetime="{{ day.date | date: '%Y-%m-%d' }}">{{ day.date | date: '%A' }}</time></h3>
