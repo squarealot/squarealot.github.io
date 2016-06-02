@@ -1,0 +1,25 @@
+---
+layout: post
+---
+
+yesterday:
+* volatil non-events
+
+today:
+* NFP
+
+tomorrow:
+* nothing
+* (Yellen speech)
+
+
+expectations:
+* AUD/USD: 0.7550 (UP, now: 0.7225) (rate decision next Tue., 07. June)
+* USD/JPY: 110.60 (UP, now: 108.85)
+* USD/CHF: 0.9940 (UP, now: 0.9905)
+
+
+* USD up in london session
+* AUD down in london session
+* JPY down in london session
+* CHF down in london session
