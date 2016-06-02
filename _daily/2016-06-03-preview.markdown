@@ -45,9 +45,11 @@ todo:
 swap:
 
 	* both:
+	
 		* no free lunch
 		
 	* long:
+	
 		* GBPSEK
 		* USDSEK
 		* NZDCHF
@@ -70,6 +72,7 @@ swap:
 		* EURCHF
 
 	* short:
+	
 		* USDRUB
 		* EURZAR
 		* USDZAR
