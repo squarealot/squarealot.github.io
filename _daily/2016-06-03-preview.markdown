@@ -6,7 +6,8 @@ yesterday:
 * volatil non-events
 
 today:
-* NFP
+* **NFP (14:30)**
+* **ISM PMI (16:00)**
 
 tomorrow:
 * nothing
@@ -19,7 +20,7 @@ expectations:
 * USD/CHF: 0.9940 (UP, now: 0.9905)
 
 
-* USD up in london session
-* AUD down in london session
-* JPY down in london session
-* CHF down in london session
+* USD up in london/ami session
+* AUD down in london/ami session
+* JPY down in london/ami session
+* CHF down in london/ami session
