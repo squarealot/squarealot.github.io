@@ -19,14 +19,14 @@ tomorrow:
 * (Yellen speech)
 
 
-expectations:
+targets:
 
 * AUD/USD: 0.7550 (UP, now: 0.7225) (rate decision next Tue., 07. June)
 * USD/JPY: 110.60 (UP, now: 108.85)
 * USD/CHF: 0.9940 (UP, now: 0.9905)
 
 
-more:
+expectations:
 
 * USD up in london/ami session
 * AUD down in london/ami session
