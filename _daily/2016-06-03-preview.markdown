@@ -35,6 +35,7 @@ expectations:
 
 
 todo:
+
 * buy AUD dips till rate decision on next Tue. (07. June)
 
 
@@ -42,6 +43,7 @@ todo:
 
 
 swap:
+
 	* both:
 		* no free lunch
 		
