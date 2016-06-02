@@ -3,18 +3,24 @@ layout: post
 ---
 
 yesterday:
+
 * volatil non-events
 
+
 today:
+
 * **NFP (14:30)**
 * **ISM PMI (16:00)**
 
+
 tomorrow:
+
 * nothing
 * (Yellen speech)
 
 
 expectations:
+
 * AUD/USD: 0.7550 (UP, now: 0.7225) (rate decision next Tue., 07. June)
 * USD/JPY: 110.60 (UP, now: 108.85)
 * USD/CHF: 0.9940 (UP, now: 0.9905)
