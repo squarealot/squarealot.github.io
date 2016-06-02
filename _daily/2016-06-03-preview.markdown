@@ -26,6 +26,8 @@ expectations:
 * USD/CHF: 0.9940 (UP, now: 0.9905)
 
 
+more:
+
 * USD up in london/ami session
 * AUD down in london/ami session
 * JPY down in london/ami session
