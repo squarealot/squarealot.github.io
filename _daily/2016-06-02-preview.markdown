@@ -12,7 +12,7 @@ yesterday:
 today; very volatil:
 
 * AUD retail sales (01:30, 03:30)
-* ECB rate decision (13:45, 14:30)
+* ECB rate decision (13:45, 14:30&16:00)
 
 
 expectations:
