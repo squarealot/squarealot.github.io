@@ -28,7 +28,7 @@ targets:
 expectations:
 
 * very volatile swings both ways
-* correction may sell off whole NFP rise
+* mostly range bound (but correction may sell off whole NFP rise)
 
 
 todo:
