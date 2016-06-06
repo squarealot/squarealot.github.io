@@ -1,0 +1,91 @@
+---
+layout: post
+---
+
+yesterday:
+
+* surprisingly bad NFP damped hike expectations
+
+
+today:
+
+* correction of yesterdays move
+* Yellen speech (18:30)
+
+
+tomorrow:
+
+* RBA rate decision (Tue, 06:30)
+
+
+targets:
+
+* AUD/USD: 0.7550 (UP, now: 0.7370) (rate decision next Tue., 07. June)
+* USD/JPY: 107.40 (UP, now: 106.50)
+* USD/CHF: 0.9940 (UP, now: 0.9760)
+
+
+expectations:
+
+* very volatile swings both ways
+* correction may sell off whole NFP rise
+
+
+todo:
+
+* buy AUD dips till rate decision on next Tue. (07. June)
+
+
+
+
+swap:
+
+* both
+	* no free lunch
+	
+* long
+	* GBPSEK
+	* USDSEK
+	* NZDCHF
+	* GBPDKK
+	* AUDCHF
+	* NZDJPY
+	* GBPCHF
+	* USDDKK
+	* NZDCAD
+	* AUDJPY
+	* USDCHF
+	* NZDUSD
+	* CADCHF
+	* USDCZK
+	* AUDCAD
+	* AUDUSD
+	* GBPJPY
+	* CADJPY
+	* USDJPY
+	* EURCHF
+
+* short
+	* USDRUB
+	* EURZAR
+	* USDZAR
+	* USDMXN
+	* USDTRY
+	* EURTRY
+	* EURNOK
+	* EURPLN
+	* EURNZD
+	* GBPNZD
+	* EURAUD
+	* GBPAUD
+	* USDPLN
+	* EURCAD
+	* EURUSD
+	* CHFJPY
+	* EURGBP
+	* GBPCAD
+	* EURJPY
+	* AUDNZD
+	* GBPUSD
+	* UK100
+	* USTEC
