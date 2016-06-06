@@ -1,10 +1,11 @@
 #!/bin/bash
 
+set -e
+set -u
+
 cd /c/Work/squarealot.github.io/
 
-export GIT_SSH="~/.ssh/GIT_SSH.squarealot.sh"
-
-ls -la $GIT_SSH
+export GIT_SSH="/c/Users/John/.ssh/GIT_SSH.squarealot.sh"
 
 git add -A
 git commit -m "auto commit"
