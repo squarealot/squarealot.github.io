@@ -1,0 +1,42 @@
+---
+layout: post
+---
+
+yesterday:
+
+* big volatile range trading
+* correction of NFP move
+
+
+today:
+
+* RBA rate decision was worth 60p
+* EU GDP at 11:00
+* CAD PMI 16:00
+
+
+tomorrow:
+
+* Japan GDP 01:50
+
+
+targets:
+
+* AUD/USD: 0.7550 (UP, now: 0.7420)
+* USD/JPY: 104.50 (DOWN, now: 107.75)
+* ???USD/CHF: 0.9940 (UP, now: 0.9710)???
+
+
+expectations:
+
+* mostly calm turn around tuesday
+* directional moves
+
+
+todo:
+
+* start selling USD/JPY around 109
+
+
+swap:
+	* no free lunch
