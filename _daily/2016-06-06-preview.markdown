@@ -42,7 +42,8 @@ swap:
 
 * both
 	* no free lunch
-	
+
+<section style="display: none;">
 * long
 	* GBPSEK
 	* USDSEK
@@ -89,3 +90,4 @@ swap:
 	* GBPUSD
 	* UK100
 	* USTEC
+</section>
