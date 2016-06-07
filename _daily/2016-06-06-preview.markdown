@@ -36,58 +36,6 @@ todo:
 * buy AUD dips till rate decision on next Tue. (07. June)
 
 
-
-
 swap:
 
-* both
-	* no free lunch
-
-<section style="display: none;">
-* long
-	* GBPSEK
-	* USDSEK
-	* NZDCHF
-	* GBPDKK
-	* AUDCHF
-	* NZDJPY
-	* GBPCHF
-	* USDDKK
-	* NZDCAD
-	* AUDJPY
-	* USDCHF
-	* NZDUSD
-	* CADCHF
-	* USDCZK
-	* AUDCAD
-	* AUDUSD
-	* GBPJPY
-	* CADJPY
-	* USDJPY
-	* EURCHF
-
-* short
-	* USDRUB
-	* EURZAR
-	* USDZAR
-	* USDMXN
-	* USDTRY
-	* EURTRY
-	* EURNOK
-	* EURPLN
-	* EURNZD
-	* GBPNZD
-	* EURAUD
-	* GBPAUD
-	* USDPLN
-	* EURCAD
-	* EURUSD
-	* CHFJPY
-	* EURGBP
-	* GBPCAD
-	* EURJPY
-	* AUDNZD
-	* GBPUSD
-	* UK100
-	* USTEC
-</section>
+* no free lunch
