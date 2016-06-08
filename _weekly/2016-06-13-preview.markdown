@@ -1,0 +1,29 @@
+---
+layout: post
+---
+
+<!--
+* USD, Indices, Gold, Oil?
+* weekday
+* inside day
+* narrow range day
+* naked/virgin vpoc, vwap, daily highs, daily lows
+* volume profile
+	* high volume node: target
+	* low volume node: support/resistance
+* v-reversals (highs, lows, median, vwap)
+* what was the play yesterday? is there a followup play?
+-->
+
+|      |  AUD  |  JPY  |  EUR  |  GBP  |  USD  |  CAD  |  NZD  |
+| :--- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| Mon: |       |       |       |       | 18:30 |       |       |
+| Tue: | **06:30** |   |       |       |       | 16:00 |       |
+| Wed: |       | **01:50** |   | 10:30 | 16:30 |       | 23:00 |
+| Thu: |       |       | 09:00 |       |       | 17:15 | 01:00, 03:10 |
+| Fri: |       |       |       |       |       | 14:30 |       |
+
+
+* **FED rate decision next week (Wed, June 15, 2016, 20:00)**
+* ??? BoJ rate decision next week too???
+* **triple witching hour next Fri. (17.6.)**
