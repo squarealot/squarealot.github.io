@@ -1,0 +1,44 @@
+---
+layout: post
+---
+
+yesterday:
+
+* more range trading
+
+
+today:
+
+* china data
+* some speeches
+
+
+tomorrow:
+
+* AUD holiday
+
+
+targets:
+
+* AUD/USD: 0.7550 (UP, now: 0.7470)
+* USD/JPY: 104.50 (DOWN, now: 107.00)
+* ???USD/CHF: 0.9940 (UP, now: 0.9595)???
+
+
+expectations:
+
+* wild action thursday
+* USD buying can start somewhere at 10:00-16:00
+* oh, and: triple witching hour next Fri. (17.6.)
+	* expect strange jumps... w/o news... out of nowhere
+	
+
+todo:
+
+* buy USD/CHF
+* start selling USD/JPY around 109
+
+
+swap:
+
+* 
