@@ -33,7 +33,7 @@ expectations:
 * more range trading
 * triple forex pay day
 * oh, and: triple witching hour next Fri. (17.6.)
-	* expect strange moves w/o news out of nowhere
+	* expect strange jumps... w/o news... out of nowhere
 	
 
 todo:
