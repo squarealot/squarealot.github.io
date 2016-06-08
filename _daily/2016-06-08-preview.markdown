@@ -1,0 +1,45 @@
+---
+layout: post
+---
+
+yesterday:
+
+* directional range trading
+* EUR with nr7, inside day
+* JPY with nr7
+
+
+today:
+
+* JPY GDP was a false break out?
+* some oil news
+* **NZD rate decision (23:00)**
+
+tomorrow:
+
+* china data
+* some speeches
+
+
+targets:
+
+* AUD/USD: 0.7550 (UP, now: 0.7460)
+* USD/JPY: 104.50 (DOWN, now: 107.00)
+* ???USD/CHF: 0.9940 (UP, now: 0.9645)???
+
+
+expectations:
+
+* more range trading
+* triple forex pay day
+* oh, and: triple witching hour next Fri. (17.6.)
+
+
+todo:
+
+* buy USD/CHF
+* start selling USD/JPY around 109
+
+swap:
+
+* no free lunch... once again
