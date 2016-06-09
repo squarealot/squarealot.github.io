@@ -1,0 +1,43 @@
+---
+layout: post
+---
+
+yesterday:
+
+* reversal of previous day
+
+
+today:
+
+* nothing?!?!
+* china holiday
+
+
+tomorrow:
+
+* AUD holiday
+
+
+targets:
+
+* AUD/USD: 0.7550 (UP, now: 0.7445)
+* USD/JPY: 104.50 (DOWN, now: 106.85)
+* USD/CHF: 0.9940 (UP, now: 0.9630)
+
+
+expectations:
+
+* some more USD buying
+* maybe some bank repositioning
+	* triple witching hour next Fri. (17.6.)
+		* expect strange jumps... w/o news... out of nowhere
+	
+
+todo:
+
+* start selling USD/JPY around 109
+
+
+swap:
+
+* no free lunch
