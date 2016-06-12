@@ -15,15 +15,17 @@ layout: post
 * what was the play yesterday? is there a followup play?
 -->
 
-|      |  AUD  |  JPY  |  EUR  |  GBP  |  USD  |  CAD  |  NZD  |
-| :--- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| Mon: |       |       |       |       | 18:30 |       |       |
-| Tue: | **06:30** |   |       |       |       | 16:00 |       |
-| Wed: |       | **01:50** |   | 10:30 | 16:30 |       | 23:00 |
-| Thu: |       |       | 09:00 |       |       | 17:15 | 01:00, 03:10 |
-| Fri: |       |       |       |       |       | 14:30 |       |
+|      |  AUD  |  JPY  |  CNY  |  EUR  |  GBP  |  CHF  |  USD  |  CAD  |  NZD  |
+| :--- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| Mon: |       |       | 04:00 |       |       |       |       |       |       |
+| Tue: |       |       |       |       | 10:30 | 14:30 |       |       |       |
+| Wed: |       |       |       |       | 10:30 | 14:30, 16:30, **20:00**, **20:30** |       |       |       |
+| Thu: | 03:30 | **05:00**, **08:30** | 11:00 | 10:30, **13:00** | **09:30** |       | 14:30 | 00:45 |       |
+| Fri: |       |       |       |       |       |       | 14:30 | 14:30 |       |
 
-
-* **FED rate decision next week (Wed, June 15, 2016, 20:00)**
-* ??? BoJ rate decision next week too???
-* **triple witching hour next Fri. (17.6.)**
+* FED rate decision (15. June, 20:00)
+* BoJ rate decision (16. June, 05:00)
+* BoE rate decision (16. June, 13:00)
+* SNB rate decision (16. June, 09:30)
+* triple witching hour (17. June)
+* Brexit vote next week (23. June)
