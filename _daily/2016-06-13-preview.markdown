@@ -36,6 +36,17 @@ todo:
 * start selling AUD/USD around 0.7550
 
 
-swap:
+swap both:
 
-* 
+* now
+
+
+long:
+
+* GBPSEK, USDSEK
+
+
+short:
+
+* USDRUB, EURZAR, USDZAR, TRY, MXY, NOK, POL
+
