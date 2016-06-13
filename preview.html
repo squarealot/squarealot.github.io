@@ -5,8 +5,6 @@ title: Square a lot!
 
 {% assign weekNow = 'now' | date: '%Y-%W' %}
 
-<h1>now: {{ weekNow }}</h1>
-
 <article>
 {% for week in site.weekly %}
 	{% assign weekInLoop = week.date | date: '%Y-%W' %}
