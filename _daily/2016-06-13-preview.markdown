@@ -41,12 +41,12 @@ swap both:
 * no
 
 
-long:
+swap long:
 
 * GBPSEK, USDSEK
 
 
-short:
+swap short:
 
 * USDRUB, EURZAR, USDZAR, TRY, MXY, NOK, POL
 
