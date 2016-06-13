@@ -38,7 +38,7 @@ todo:
 
 swap both:
 
-* now
+* no
 
 
 long:
