@@ -27,8 +27,9 @@ title: Square a lot!
 				
 				
 <ul>
-{% for row in site.data.swaps["2016-06-17.shorts"] %}
+{% for row in site.data.swaps %}
   <li>
+  {{ row.name }}: 
   {{ row.symbol }}: 
   {{ row.eurocent }}
   </li>
