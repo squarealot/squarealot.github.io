@@ -29,7 +29,7 @@ title: Square a lot!
 				{% if site.data.swaps[swapSums] %}
 				<table>
 					<tr>
-						<th colspan="2">swap long+short</th>
+						<th colspan="2">positive swap for long+short positions</th>
 					</tr>
 					<tr>
 						<th>symbol</th>
@@ -47,7 +47,7 @@ title: Square a lot!
 				{% if site.data.swaps[swapLongs] %}
 				<table>
 					<tr>
-						<th colspan="2">swap longs</th>
+						<th colspan="2">positive swap for long positions</th>
 					</tr>
 					<tr>
 						<th>symbol</th>
@@ -65,7 +65,7 @@ title: Square a lot!
 				{% if site.data.swaps[swapShorts] %}
 				<table>
 					<tr>
-						<th colspan="2">swap shorts</th>
+						<th colspan="2">positive swap for short positions</th>
 					</tr>
 					<tr>
 						<th>symbol</th>
@@ -77,7 +77,7 @@ title: Square a lot!
 					{% endfor %}</tr>
 				</table>
 				{{ else }}
-					there is no positive swap for long positions today
+					there is no positive swap for short positions today
 				{{ endif }}
 
 				
