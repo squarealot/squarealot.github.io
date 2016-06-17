@@ -21,10 +21,8 @@ title: Square a lot!
 				<time datetime="{{ day.date | date: '%Y-%m-%d' }}" pubdate>{{ day.date | date: '%d. %B %Y' }}</time>
 				<h3><time datetime="{{ day.date | date: '%Y-%m-%d' }}">{{ day.date | date: '%A' }}</time></h3>
 				<section>{{ day.content }}</section>
-			{% endif %}
-			
-			
-
+				
+				
 <ul>
 {% for row in site.data.swaps[date + ".sums"] %}
   <li>
@@ -34,7 +32,8 @@ title: Square a lot!
 {% endfor %}
 </ul>
 
-			
+
+			{% endif %}
 		{% endfor %}
 
 	{% endif %}
