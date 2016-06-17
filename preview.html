@@ -25,17 +25,50 @@ title: Square a lot!
 				<h3><time datetime="{{ day.date | date: '%Y-%m-%d' }}">{{ day.date | date: '%A' }}</time></h3>
 				<section>{{ day.content }}</section>
 				
-				* swap longs:
 
-				<ul>{% for row in site.data.swaps[swapLongs] %}<li>{{ row.symbol }}: {{ row.eurocent }}</li>{% endfor %}</ul>
+
+				<table>
+					<tr>
+						<th colspan="2">swap long+short</th>
+					</tr>
+					<tr>
+						<th>symbol</th>
+						<th>eurocent</th>
+					</tr>
+					{% for row in site.data.swaps[swapSums] %}<tr>
+						<td>{{ row.symbol }}</td>
+						<td>{{ row.eurocent }}</td>
+					{% endfor %}</tr>
+				</table>
 				
-				* swap shorts:
+				<table>
+					<tr>
+						<th colspan="2">swap longs</th>
+					</tr>
+					<tr>
+						<th>symbol</th>
+						<th>eurocent</th>
+					</tr>
+					{% for row in site.data.swaps[swapLongs] %}<tr>
+						<td>{{ row.symbol }}</td>
+						<td>{{ row.eurocent }}</td>
+					{% endfor %}</tr>
+				</table>
+
+				<table>
+					<tr>
+						<th colspan="2">swap shorts</th>
+					</tr>
+					<tr>
+						<th>symbol</th>
+						<th>eurocent</th>
+					</tr>
+					{% for row in site.data.swaps[swapShorts] %}<tr>
+						<td>{{ row.symbol }}</td>
+						<td>{{ row.eurocent }}</td>
+					{% endfor %}</tr>
+				</table>
 				
-				<ul>{% for row in site.data.swaps[swapShorts] %}<li>{{ row }} - {{ row.symbol }}: {{ row.eurocent }}</li>{% endfor %}</ul>
-				
-				* swap sums:
-				
-				<ul>{% for row in site.data.swaps[swapSums] %}<li>{{ row.symbol }}: {{ row.eurocent }}</li>{% endfor %}</ul>
 
 				
 			{% endif %}
