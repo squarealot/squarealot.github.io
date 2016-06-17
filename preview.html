@@ -14,6 +14,7 @@ title: Square a lot!
 		<section>{{ week.content }}</section>
 
 		{% for day in site.daily %}
+			{% assign date = day.date | date: '%Y-%m-%d' %}
 			{% assign weekOfDay = day.date | date: '%Y-%W' %}
 			{% if weekInLoop == weekOfDay %}
 				<hr/>
@@ -21,6 +22,19 @@ title: Square a lot!
 				<h3><time datetime="{{ day.date | date: '%Y-%m-%d' }}">{{ day.date | date: '%A' }}</time></h3>
 				<section>{{ day.content }}</section>
 			{% endif %}
+			
+			
+
+<ul>
+{% for row in site.data.swaps[date + "sums"] %}
+  <li>
+  {{ row.symbol }}: 
+  {{ row.eurocent }}
+  </li>
+{% endfor %}
+</ul>
+
+			
 		{% endfor %}
 
 	{% endif %}
