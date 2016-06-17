@@ -26,11 +26,9 @@ title: Square a lot!
 				<section>{{ day.content }}</section>
 				
 				
-<ul>
-{% for row in site.data.swaps[swapLongs] %}
-	<li>{{ row.symbol }}: {{ row.eurocent }}</li>
-{% endfor %}
-</ul>
+<ul>{% for row in site.data.swaps[swapLongs] %}<li>{{ row.symbol }}: {{ row.eurocent }}</li>{% endfor %}</ul>
+<ul>{% for row in site.data.swaps[swapShorts] %}<li>{{ row.symbol }}: {{ row.eurocent }}</li>{% endfor %}</ul>
+<ul>{% for row in site.data.swaps[swapSums] %}<li>{{ row.symbol }}: {{ row.eurocent }}</li>{% endfor %}</ul>
 
 
 			{% endif %}
