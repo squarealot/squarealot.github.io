@@ -26,7 +26,7 @@ title: Square a lot!
 				<section>{{ day.content }}</section>
 				
 
-
+				{% if site.data.swaps[swapSums] %}
 				<table>
 					<tr>
 						<th colspan="2">swap long+short</th>
@@ -40,7 +40,11 @@ title: Square a lot!
 						<td>{{ row.eurocent }}</td>
 					{% endfor %}</tr>
 				</table>
+				{{ else }}
+					there is no positive swap for long+short positions today
+				{{ endif }}
 				
+				{% if site.data.swaps[swapLongs] %}
 				<table>
 					<tr>
 						<th colspan="2">swap longs</th>
@@ -54,7 +58,11 @@ title: Square a lot!
 						<td>{{ row.eurocent }}</td>
 					{% endfor %}</tr>
 				</table>
-
+				{{ else }}
+					there is no positive swap for long positions today
+				{{ endif }}
+				
+				{% if site.data.swaps[swapShorts] %}
 				<table>
 					<tr>
 						<th colspan="2">swap shorts</th>
@@ -68,7 +76,9 @@ title: Square a lot!
 						<td>{{ row.eurocent }}</td>
 					{% endfor %}</tr>
 				</table>
-				
+				{{ else }}
+					there is no positive swap for long positions today
+				{{ endif }}
 
 				
 			{% endif %}
