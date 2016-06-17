@@ -24,7 +24,7 @@ title: Square a lot!
 				
 				
 <ul>
-{% for row_hash in site.data.swaps[date + "_longs"] %}
+{% for row_hash in site.data.swaps[date | append: "_longs"] %}
 {% assign row = row_hash[0] %}
   <li>
   {{ row_hash }} - 
