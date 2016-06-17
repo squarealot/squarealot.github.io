@@ -14,7 +14,10 @@ title: Square a lot!
 		<section>{{ week.content }}</section>
 
 		{% for day in site.daily %}
-			{% assign date = day.date | date: '%Y-%m-%d' %}
+			{% assign swapLongs = day.date | date: '%Y-%m-%d_longs' %}
+			{% assign swapShorts = day.date | date: '%Y-%m-%d_shorts' %}
+			{% assign swapSums = day.date | date: '%Y-%m-%d_sums' %}
+			
 			{% assign weekOfDay = day.date | date: '%Y-%W' %}
 			{% if weekInLoop == weekOfDay %}
 				<hr/>
@@ -24,7 +27,7 @@ title: Square a lot!
 				
 				
 <ul>
-{% for row_hash in site.data.swaps[date | append: "_longs"] %}
+{% for row_hash in site.data.swaps[swapLongs] %}
 {% assign row = row_hash[0] %}
   <li>
   {{ row_hash }} - 
