@@ -25,10 +25,20 @@ title: Square a lot!
 				<h3><time datetime="{{ day.date | date: '%Y-%m-%d' }}">{{ day.date | date: '%A' }}</time></h3>
 				<section>{{ day.content }}</section>
 				
+				* swap longs:
+				
 				<ul>{% for row in site.data.swaps[swapLongs] %}<li>{{ row.symbol }}: {{ row.eurocent }}</li>{% endfor %}</ul>
+				
+				* swap shorts:
+				
 				<ul>{% for row in site.data.swaps[swapShorts] %}<li>{{ row.symbol }}: {{ row.eurocent }}</li>{% endfor %}</ul>
+				
+				
+				* swap sums:
+				
 				<ul>{% for row in site.data.swaps[swapSums] %}<li>{{ row.symbol }}: {{ row.eurocent }}</li>{% endfor %}</ul>
 
+				
 			{% endif %}
 		{% endfor %}
 
