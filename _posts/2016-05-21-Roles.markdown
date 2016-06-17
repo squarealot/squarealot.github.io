@@ -5,7 +5,7 @@ excerpt: Balance multiple hats
 tags: [trading-roles, analyst, trader, manager]
 ---
 
-<img src="/img/analyst-trader-manager.png" alt="Analyst, Trader, Manager" class="ali-right" />
+<img src="/assets/img/analyst-trader-manager.png" alt="Analyst, Trader, Manager" class="ali-right" />
 
 * Analyst (getting direction right)
 	* fundamental (economy, interest rates, production, earnings, employment, GDP, housing, manufacturing)
