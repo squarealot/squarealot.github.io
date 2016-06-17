@@ -14,7 +14,10 @@ title: Square a lot!
 		<section>{{ week.content }}</section>
 
 		{% for day in site.daily %}
-			{% assign date = day.date | date: '%Y-%m-%d' %}
+			{% assign fileNameLongs = day.date | date: '%Y-%m-%d.longs' %}
+			{% assign fileNameShorts = day.date | date: '%Y-%m-%d.shorts' %}
+			{% assign fileNameSums = day.date | date: '%Y-%m-%d.sums' %}
+			
 			{% assign weekOfDay = day.date | date: '%Y-%W' %}
 			{% if weekInLoop == weekOfDay %}
 				<hr/>
@@ -24,7 +27,7 @@ title: Square a lot!
 				
 				
 <ul>
-{% for row in site.data.swaps[date + ".sums"] %}
+{% for row in site.data.swaps[date + ".longs"] %}
   <li>
   {{ row.symbol }}: 
   {{ row.eurocent }}
