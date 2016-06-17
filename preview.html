@@ -25,7 +25,7 @@ title: Square a lot!
 				<h3><time datetime="{{ day.date | date: '%Y-%m-%d' }}">{{ day.date | date: '%A' }}</time></h3>
 				<section>{{ day.content }}</section>
 
-				{% if site.data.swaps[swapSums] %}
+				{% if site.data.swaps[swapSums][1] %}
 				<table>
 					<tr>
 						<th colspan="2">positive swap for long+short positions</th>
