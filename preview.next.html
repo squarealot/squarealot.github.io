@@ -4,6 +4,7 @@ title: Square a lot!
 ---
 
 {% assign weekNow = 'now' | date: '%Y-%W' %}
+{% increment weekNow %}
 
 <article>
 {% for week in site.weekly %}
