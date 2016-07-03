@@ -3,8 +3,11 @@ layout: default
 title: Square a lot!
 ---
 
+{% assign year = 'now' | date: '%Y' %}
+{% assign week = 'now' | date: '%W' %}
+{% increment week %}
+
 {% assign weekNow = 'now' | date: '%Y-%W' %}
-{% increment weekNow %}
 
 <article>
 {% for week in site.weekly %}
