@@ -1,0 +1,91 @@
+---
+layout: default
+title: Square a lot!
+---
+
+{% assign weekNow = 'now' | date: '%Y-%W' %}
+
+<article>
+{% for week in site.weekly %}
+	{% assign weekInLoop = week.date | date: '%Y-%W' %}
+	{% if weekNow == weekInLoop %}
+		<h1>{{ week.date | date: 'Year %Y' }}</h1>
+		<h2>{{ week.date | date: 'Week %W' }}</h2>
+		<section>{{ week.content }}</section>
+
+		{% for day in site.daily %}
+			{% assign swapLongs = day.date | date: '%Y-%m-%d_longs' %}
+			{% assign swapShorts = day.date | date: '%Y-%m-%d_shorts' %}
+			{% assign swapSums = day.date | date: '%Y-%m-%d_sums' %}
+			
+			{% assign weekOfDay = day.date | date: '%Y-%W' %}
+			{% if weekInLoop == weekOfDay %}
+				<hr/>
+				<time datetime="{{ day.date | date: '%Y-%m-%d' }}" pubdate>{{ day.date | date: '%d. %B %Y' }}</time>
+				<h3><time datetime="{{ day.date | date: '%Y-%m-%d' }}">{{ day.date | date: '%A' }}</time></h3>
+				<section>{{ day.content }}</section>
+
+				
+				
+
+				{% if site.data.swaps[swapSums] %}
+				<table style="display: inline;">
+					<tr>
+						<th colspan="2">positive swap for long+short positions</th>
+					</tr>
+					<tr>
+						<th>symbol</th>
+						<th>eurocent</th>
+					</tr>
+					{% for row in site.data.swaps[swapSums] %}<tr>
+						<td>{{ row.symbol }}</td>
+						<td>{{ row.eurocent }}</td>
+					{% endfor %}</tr>
+				</table>
+				{% else %}
+					<p>There is no positive swap for long+short positions today.</p>
+				{% endif %}
+				
+				{% if site.data.swaps[swapLongs] %}
+				<table style="display: inline;">
+					<tr>
+						<th colspan="2">positive swap for long positions</th>
+					</tr>
+					<tr>
+						<th>symbol</th>
+						<th>eurocent</th>
+					</tr>
+					{% for row in site.data.swaps[swapLongs] %}<tr>
+						<td>{{ row.symbol }}</td>
+						<td>{{ row.eurocent }}</td>
+					{% endfor %}</tr>
+				</table>
+				{% else %}
+					<p>There is no positive swap for long positions today.</p>
+				{% endif %}
+				
+				{% if site.data.swaps[swapShorts] %}
+				<table style="display: inline;">
+					<tr>
+						<th colspan="2">positive swap for short positions</th>
+					</tr>
+					<tr>
+						<th>symbol</th>
+						<th>eurocent</th>
+					</tr>
+					{% for row in site.data.swaps[swapShorts] %}<tr>
+						<td>{{ row.symbol }}</td>
+						<td>{{ row.eurocent }}</td>
+					{% endfor %}</tr>
+				</table>
+				{% else %}
+					<p>There is no positive swap for short positions today.</p>
+				{% endif %}
+				
+				
+			{% endif %}
+		{% endfor %}
+
+	{% endif %}
+{% endfor %}
+</article>
