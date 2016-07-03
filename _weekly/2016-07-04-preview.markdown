@@ -1,0 +1,26 @@
+---
+layout: post
+---
+
+general:
+
+* new month
+* whole week Ramadan: volatil for oil?
+
+
+events:
+
+* Mon: USD holiday
+* Tue: AUD 03:30, **06:30** rate decision
+* Wed: USD 14:30 trade balance, 16:00 ISM, **20:00 FOMC**
+* Thu: USD 14:15 ADP
+* Fri: USD 14:30 payrolls
+
+
+future rate decisions:
+
+* CAD rate decision: 13.07.
+* GBP rate decision: 14.07.
+* EUR rate decision: 21.07.
+* USD rate decision: 27.07.
+* JPY rate decision: 29.07.

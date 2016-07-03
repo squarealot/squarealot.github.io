@@ -17,6 +17,7 @@ excerpt: Time well spent
 	
 	
 * economic calendars
+	* [http://www.fxstreet.com/economic-calendar](http://www.fxstreet.com/economic-calendar)
 	* [http://today.cal.4castweb.com/timezone.aspx](http://today.cal.4castweb.com/timezone.aspx)
 	* [https://www.fxopen.com/en/forex-calendar/](https://www.fxopen.com/en/forex-calendar/)
 	* [https://www.dailyfx.com/calendar](https://www.dailyfx.com/calendar)
