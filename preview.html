@@ -8,6 +8,8 @@ title: Square a lot!
 <article>
 {% for week in site.weekly %}
 	{% assign weekInLoop = week.date | date: '%Y-%W' %}
+weekNow: {{ weekNow }}<br>
+weekInLoop: {{ weekInLoop }}<br>
 	{% if weekNow == weekInLoop %}
 		<h1>{{ week.date | date: 'Year %Y' }}</h1>
 		<h2>{{ week.date | date: 'Week %W' }}</h2>
