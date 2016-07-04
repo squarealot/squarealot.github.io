@@ -11,7 +11,7 @@ yesterday:
 today:
 
 * AUD: rate decision
-
+* (long/fast) directional moves
 
 tomorrow:
 
