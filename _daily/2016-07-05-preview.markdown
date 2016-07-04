@@ -22,8 +22,8 @@ expectations:
 
 * quite but directional tuesday moves
 * AUD rate decision a non-event without change
-* USD strength before FOMC and
-* (powerful USD devaluation after FOMC (most likely a fake?))
+* USD strength before FOMC
+* (ADP, Payrolls: powerful USD devaluation after FOMC (most likely a fake?))
 
 
 todo:
