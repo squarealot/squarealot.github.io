@@ -10,8 +10,8 @@ yesterday:
 
 today:
 
-* AUD: rate decision
-* (long/fast) directional moves
+* **AUD rate decision**
+
 
 tomorrow:
 
@@ -20,13 +20,16 @@ tomorrow:
 
 expectations:
 
+* quite but directional tuesday moves
 * AUD rate decision a non-event without change
 * USD strength before FOMC and
-* powerful USD devaluation after FOMC (most likely a fake?)
-
-
-targets:
+* (powerful USD devaluation after FOMC (most likely a fake?))
 
 
 todo:
+
+* get rid of everything CHF
+
+
+targets:
 
