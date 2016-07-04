@@ -29,21 +29,16 @@ weekInLoop: {{ weekInLoop }}<br>
 
 				
 				
-				<h3>
+				<h3 onclick="javascript: $()">
 					Swap
 					({{ site.data.swaps[swapSums] | size }} / {{ site.data.swaps[swapLongs] | size }} / {{ site.data.swaps[swapShorts] | size }})
 					<i class="fa fa-caret-square-o-down" aria-hidden="true"></i>
 				</h3>
 				
 				{% if site.data.swaps[swapSums] %}
-				<table style="display: inline; border: 0px;">
-					<tr>
-						<th colspan="2">long+short</th>
-					</tr>
-					<tr>
-						<th>symbol</th>
-						<th>eurocent</th>
-					</tr>
+				<table class="swap-table">
+					<tr><th colspan="2">long+short</th></tr>
+					<tr><th>symbol</th><th>eurocent</th></tr>
 					{% for row in site.data.swaps[swapSums] %}<tr>
 						<td>{{ row.symbol }}</td>
 						<td>{{ row.eurocent }}</td>
@@ -52,14 +47,9 @@ weekInLoop: {{ weekInLoop }}<br>
 				{% endif %}
 				
 				{% if site.data.swaps[swapLongs] %}
-				<table style="display: inline; border: 0px;">
-					<tr>
-						<th colspan="2">long</th>
-					</tr>
-					<tr>
-						<th>symbol</th>
-						<th>eurocent</th>
-					</tr>
+				<table class="swap-table">
+					<tr><th colspan="2">long</th></tr>
+					<tr><th>symbol</th><th>eurocent</th></tr>
 					{% for row in site.data.swaps[swapLongs] %}<tr>
 						<td>{{ row.symbol }}</td>
 						<td>{{ row.eurocent }}</td>
@@ -68,14 +58,9 @@ weekInLoop: {{ weekInLoop }}<br>
 				{% endif %}
 				
 				{% if site.data.swaps[swapShorts] %}
-				<table style="display: inline; border: 0px;">
-					<tr>
-						<th colspan="2">short</th>
-					</tr>
-					<tr>
-						<th>symbol</th>
-						<th>eurocent</th>
-					</tr>
+				<table class="swap-table">
+					<tr><th colspan="2">short</th></tr>
+					<tr><th>symbol</th><th>eurocent</th></tr>
 					{% for row in site.data.swaps[swapShorts] %}<tr>
 						<td>{{ row.symbol }}</td>
 						<td>{{ row.eurocent }}</td>

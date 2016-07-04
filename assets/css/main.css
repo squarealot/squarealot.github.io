@@ -72,3 +72,9 @@ table, th, td {
     border: 1px solid black;
 	padding: 5px;
 }
+
+table.swap-table {
+	d-isplay: inline;
+	display: none;
+	border: 0px;
+}
