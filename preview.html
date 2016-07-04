@@ -31,9 +31,9 @@ weekInLoop: {{ weekInLoop }}<br>
 				
 <h3>Swap</h3>
 
-a: {{ site.data.swaps[swapSums] | first }}
-b: {{ site.data.swaps[swapLongs] | first }}
-c: {{ site.data.swaps[swapShorts] | first }}
+a: {{ site.data.swaps[swapSums] | size }}
+b: {{ site.data.swaps[swapLongs] | size }}
+c: {{ site.data.swaps[swapShorts] | size }}
 
 
 				{% if site.data.swaps[swapSums] %}
