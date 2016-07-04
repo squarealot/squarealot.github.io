@@ -29,7 +29,11 @@ weekInLoop: {{ weekInLoop }}<br>
 
 				
 				
-				<h3>Swap ({{ site.data.swaps[swapSums] | size }} / {{ site.data.swaps[swapLongs] | size }} / {{ site.data.swaps[swapShorts] | size }})</h3>
+				<h3>
+					Swap
+					({{ site.data.swaps[swapSums] | size }} / {{ site.data.swaps[swapLongs] | size }} / {{ site.data.swaps[swapShorts] | size }})
+					<i class="fa fa-caret-square-o-down" aria-hidden="true"></i>
+				</h3>
 				
 				{% if site.data.swaps[swapSums] %}
 				<table style="display: inline; border: 0px;">
