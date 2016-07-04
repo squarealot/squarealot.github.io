@@ -8,8 +8,6 @@ title: Square a lot!
 <article>
 {% for week in site.weekly %}
 	{% assign weekInLoop = week.date | date: '%Y-%W' %}
-weekNow: {{ weekNow }}<br>
-weekInLoop: {{ weekInLoop }}<br>
 	{% if weekNow == weekInLoop %}
 		<h1>{{ week.date | date: 'Year %Y' }}</h1>
 		<h2>{{ week.date | date: 'Week %W' }}</h2>
@@ -29,7 +27,7 @@ weekInLoop: {{ weekInLoop }}<br>
 
 				
 				
-				<h3 onclick="javascript: $()">
+				<h3 onclick="javascript: $('.swap-table').show();">
 					Swap
 					({{ site.data.swaps[swapSums] | size }} / {{ site.data.swaps[swapLongs] | size }} / {{ site.data.swaps[swapShorts] | size }})
 					<i class="fa fa-caret-square-o-down" aria-hidden="true"></i>
