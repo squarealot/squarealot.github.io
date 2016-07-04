@@ -23,6 +23,9 @@ targets:
 
 expectations:
 
+* devaluation of all currencies vs USD before FOMC and
+* hard and fast USD devaluation after FOMC (most likely a fake?)
+
 
 todo:
 
