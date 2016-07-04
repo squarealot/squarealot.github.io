@@ -27,7 +27,7 @@ title: Square a lot!
 
 				
 				
-				<h3 onclick="javascript: $('.swap-table').show().css('display', 'inline');">
+				<h3 id="swap-caption">
 					Swap
 					({{ site.data.swaps[swapSums] | size }} / {{ site.data.swaps[swapLongs] | size }} / {{ site.data.swaps[swapShorts] | size }})
 					<i class="fa fa-caret-square-o-down" aria-hidden="true"></i>
@@ -73,3 +73,15 @@ title: Square a lot!
 	{% endif %}
 {% endfor %}
 </article>
+
+
+
+<script>
+$("#swap-caption").on("click", function() {
+	var hidden = $(".swap-table:hidden"),
+		visible = $(".swap-table:visible");
+		
+	visible.hide();
+	hidden.show().css('display', 'inline');
+});
+</script>
