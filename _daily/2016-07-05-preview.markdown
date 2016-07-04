@@ -1,0 +1,28 @@
+---
+layout: post
+---
+
+yesterday:
+
+* USD: holiday
+* AUD: positioning for rate decision
+
+
+today:
+
+* AUD: rate decision
+
+
+tomorrow:
+
+* USD: ISM, **FOMC**
+
+
+targets:
+
+
+expectations:
+
+
+todo:
+
